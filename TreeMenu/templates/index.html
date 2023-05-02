@@ -1,0 +1,20 @@
+{% load menu %}
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Демонстрация работы настраиваемых меню</title>
+    </head>
+    <body>
+        <h1>Настраиваемые меню</h1>
+        <h1>Главное меню</h1>
+        <div>
+           {% draw_menu 'Главное меню' %}
+        </div>
+    <h1>Боковое меню</h1>
+        <div>
+           {% draw_menu 'Боковое меню' %}
+        </div>
+    </body>
+</html>
